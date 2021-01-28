@@ -1,0 +1,70 @@
+#logo-ibft{
+    width: 150px;
+    margin-left: 100px;
+}
+#logo-ibft:hover{
+    transition: 0.3s;
+    opacity: 0.3;
+}
+#estado{
+    margin-top:15px;
+    margin-left: 110px;
+    font-family: 'Merienda', cursive;
+}
+#navbarNavDarkDropdown{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right:  180px;
+}
+#navbarDarkDropdownMenuLink{
+    font-family: 'Merienda', cursive;
+    color: white;
+
+}
+.dropdown-item{
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+.card:hover{
+    transition: 0.3s;
+    opacity: 0.3;
+
+}
+
+.container{
+    margin-top: 230px;
+    margin-left: 300px!important;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    #logo-ibft{
+        width: 150px;
+        margin-left: 150px;
+    }
+    #estado{
+        margin-top:15px;
+        margin-left: 150px;
+        font-family: 'Merienda', cursive;
+    }
+    #navbarNavDarkDropdown{
+
+        display: flex;
+        justify-content: flex-end;
+        margin-right:  150px;
+    }
+    .card{
+        margin-top: 130px;
+        margin-left: -270px!important;
+        width: 400px;
+    }
+    .card:hover{
+        transition: 0; 
+        opacity: 1; 
+    
+    }
+    
+}
