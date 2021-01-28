@@ -33,7 +33,7 @@
 }
 
 .container{
-    margin-top: 230px;
+    margin-top: 310px;
     margin-left: 300px!important;
     display: flex;
     flex-direction: row;
@@ -67,4 +67,58 @@
     
     }
     
+}
+
+.sobre-quemsomos{
+   
+   
+    display:flex; 
+    margin-top: 100px;
+    width: 95%;
+    margin-left: 80px;
+    justify-content: space-around;
+    margin-bottom: 220px;
+    
+}
+
+.valores{
+    display:flex;
+    width: 70%;
+    margin-left: 300px;
+}
+.missao{
+    display: flex;
+    width: 70%;
+    margin-top: 55px;
+    margin-left: 300px;    
+}
+.visao{
+    display:flex;
+    width: 70%;
+    margin-left: 300px;
+}
+#organograma{
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 80%;
+}
+
+#quemsomos-img{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+#regiao{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+    margin-left: 660px;
+    margin-top: -30px;
+}
+#missao{
+   margin-left: 44px;
+}
+#visao{
+    margin-top: 55px;
+    margin-right: 33px;
 }
