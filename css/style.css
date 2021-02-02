@@ -9,7 +9,9 @@
 #estado{
     margin-top:15px;
     margin-left: 110px;
+    font-size: 30px;
     font-family: 'Merienda', cursive;
+
 }
 #navbarNavDarkDropdown{
 
@@ -40,21 +42,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+
+
     #logo-ibft{
         width: 150px;
         margin-left: 150px;
     }
     #estado{
         margin-top:15px;
-        margin-left: 150px;
+        margin-left: 120px;
         font-family: 'Merienda', cursive;
     }
     #navbarNavDarkDropdown{
 
         display: flex;
         justify-content: flex-end;
-        margin-right:  150px;
+        margin-right:  170px;
     }
     .card{
         margin-top: 130px;
@@ -66,6 +69,59 @@
         opacity: 1; 
     
     }
+    #quemsomos-img{
+        display: flex;
+        margin-left: -20px!important;
+        width: 510px!important;
+        /* justify-content: flex-start; */
+
+    }
+    .sobre-quemsomos{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: justify;
+        margin-top: -200px!important;
+        margin-left: 10px!important;
+        /* padding: 220px; */
+    }
+    
+    #img-valores{
+        margin-top: -200px;
+        margin-left: -600px!important;
+    }
+    #valores{
+        text-align: justify;
+        margin-top: 250px!important;
+        margin-left: -290px!important;
+        width: 450px;
+
+
+    }
+    #img-missao{
+        margin-top: 5px;
+        margin-left: -400px!important;
+        width: 450px;
+    }
+    #missao{
+        margin-top: 600px;
+        margin-left: -330px!important;
+        margin-top: 460px;
+        width: 400px!important;
+        text-align: justify;
+    }
+    #visao{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: justify;
+        margin-left: -200px!important;
+        margin-top:530px!important;
+      
+    }
+    #img-visao{
+        margin-top:50px;
+        margin-left: -400px!important;
+    }
+
     
 }
 
@@ -111,7 +167,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
-
     margin-left: 660px;
     margin-top: -30px;
 }
@@ -121,4 +176,7 @@
 #visao{
     margin-top: 55px;
     margin-right: 33px;
+}
+#valores{
+    margin-top: 100px;
 }
