@@ -142,6 +142,9 @@
         
 
     }
+    .rodape{
+        background-color: #000;
+    }
     
    
     
@@ -175,6 +178,7 @@
     display:flex;
     width: 70%;
     margin-left: 300px;
+    margin-bottom: 20vh;
 }
 #sobre{
     text-align: justify;
@@ -204,4 +208,12 @@ hr{
     border-top: 1px solid #ccc;
     margin: 1em 0; padding: 0; 
 
+}
+
+.rodape{
+    padding: 1vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color:#212529;
+    text-align: center;
 }
