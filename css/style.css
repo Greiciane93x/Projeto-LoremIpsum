@@ -1,31 +1,26 @@
 #logo-ibft{
-    width: 150px;
-    margin-left: 100px;
+
+   width: 35%;
+   border-radius: 1.2rem;
+ 
 }
 #logo-ibft:hover{
     transition: 0.3s;
-    opacity: 0.3;
+    opacity: 0.9;
 }
-#estado{
-    margin-top:15px;
-    margin-left: 110px;
-    font-size: 30px;
-    font-family: 'Merienda', cursive;
 
-}
-#navbarNavDarkDropdown{
-
+.navbar-collapse{
     display: flex;
     justify-content: flex-end;
     margin-right:  180px;
 }
-#navbarDarkDropdownMenuLink{
+.nav-item {
     font-family: 'Merienda', cursive;
     color: white;
 
 }
 .dropdown-item{
-    font-family: 'Merienda', cursive;
+
     color: white;
 }
 .card:hover{
@@ -35,14 +30,23 @@
 }
 
 .container{
-    margin-top: 310px;
-    margin-left: 300px!important;
+    margin-top: 30vh;
+    margin-left: 30vh!important;
     display: flex;
     flex-direction: row;
 }
+.navbar{
+    height: 16vh;
+}
 
 @media only screen and (max-width: 600px) {
+    hr{
+        display: none;
+    }
 
+    .navbar{
+        height: 26vh;
+    }
 
     #logo-ibft{
         width: 150px;
@@ -50,78 +54,96 @@
     }
     #estado{
         margin-top:15px;
-        margin-left: 120px;
+        margin-left: 160px;
         font-family: 'Merienda', cursive;
     }
-    #navbarNavDarkDropdown{
+    .navbar-collapse{
 
         display: flex;
         justify-content: flex-end;
-        margin-right:  170px;
+        margin-right:  19vh;
     }
     .card{
-        margin-top: 130px;
-        margin-left: -270px!important;
-        width: 400px;
+        margin-top: 3vh;
+        margin-left: -29vh;
+        width: 45vh;
     }
     .card:hover{
         transition: 0; 
         opacity: 1; 
     
     }
-    #quemsomos-img{
-        display: flex;
-        margin-left: -20px!important;
-        width: 510px!important;
-        /* justify-content: flex-start; */
 
-    }
     .sobre-quemsomos{
-        display: flex;
+      
+        margin-top: 3vh;
+        margin-left: -29vh;
+        width: 45vh;
+        display: grid;
         flex-wrap: wrap;
-        text-align: justify;
-        margin-top: -200px!important;
-        margin-left: 10px!important;
-        /* padding: 220px; */
+        padding-top: 22px;
+       
+  
     }
-    
+    #sobre{
+        padding-top: 35px;
+        margin-right: 15vh;
+        text-align: justify;
+    }
+    #quem-somos{
+        padding-top: 35px;
+        margin-right: 15vh;
+        text-align: justify;
+    }
+
+    #quemsomos-img{
+        margin-right: 15vh;
+        display: flex;
+        width: 50vh;
+    }
+
+    .valores{
+        margin-top: 3vh;
+        margin-left: -29vh;
+        width: 45vh;
+        display: grid;
+        flex-wrap: wrap;
+        padding-top: 22px;
+       
+    }
     #img-valores{
-        margin-top: -200px;
-        margin-left: -600px!important;
-    }
-    #valores{
-        text-align: justify;
-        margin-top: 250px!important;
-        margin-left: -290px!important;
-        width: 450px;
-
-
+        display: none;
+       
     }
     #img-missao{
-        margin-top: 5px;
-        margin-left: -400px!important;
-        width: 450px;
-    }
-    #missao{
-        margin-top: 600px;
-        margin-left: -330px!important;
-        margin-top: 460px;
-        width: 400px!important;
-        text-align: justify;
-    }
-    #visao{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: justify;
-        margin-left: -200px!important;
-        margin-top:530px!important;
-      
+        display: none;
     }
     #img-visao{
-        margin-top:50px;
-        margin-left: -400px!important;
+        display: none;
     }
+    #valores{
+        margin-top:-22vh;
+        margin-left:-23vh;
+        text-align: justify;
+        width: 35vh;
+      
+    }
+    #missao{
+        margin-top:-5vh;
+        margin-left:-23vh !important;
+        text-align: justify;
+        width: 35vh;
+    }
+    #visao{
+        margin-left:-23vh;
+        margin-top:2vh;
+        text-align: justify;
+        width: 35vh;
+        
 
+    }
+    
+   
     
 }
 
@@ -129,7 +151,8 @@
    
    
     display:flex; 
-    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-top: 30vh;
     width: 95%;
     margin-left: 80px;
     justify-content: space-around;
@@ -153,30 +176,32 @@
     width: 70%;
     margin-left: 300px;
 }
-#organograma{
-    margin-top: 100px;
-    margin-left: 180px;
-    width: 80%;
+#sobre{
+    text-align: justify;
+    width: 40vh;
 }
-
-#quemsomos-img{
-    margin-top: 300px;
-    margin-left: 600px;
-}
-#regiao{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: bold;
-    margin-left: 660px;
-    margin-top: -30px;
+#quem-somos{
+    text-align: justify;
+    width: 40vh ;
 }
 #missao{
-   margin-left: 44px;
+    text-align: justify;
+    margin-left: 2vh;
 }
 #visao{
-    margin-top: 55px;
-    margin-right: 33px;
+    text-align: justify;
+    margin-top:2vh;
 }
-#valores{
-    margin-top: 100px;
+#img-visao{
+    margin-left: 3vh;
+}
+hr{
+    
+    margin-bottom: 22vh;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; 
+
 }
